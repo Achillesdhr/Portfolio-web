@@ -1,0 +1,32 @@
+@import url(cabecalho.css);
+@import url(apresentacao.css);
+@import url(swipper.css);
+@import url(curriculo.css);
+@import url(rodape.css);
+:root {
+    --cor-principal: rgb(0, 0, 0);
+    --cor-secundaria: rgb(255, 255, 255);
+    --background-cinza: rgb(243, 243, 243);
+    --cor-fonte: rgb(81, 36, 153);
+}
+
+body {
+    background: var(--cor-principal);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+strong{
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+a:hover{
+    color: var(--cor-fonte);
+}

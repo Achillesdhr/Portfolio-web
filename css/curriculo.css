@@ -1,0 +1,88 @@
+.curriculo-tabela {
+    background: var(--cor-secundaria);
+    margin: 0 1em;
+    padding: 1em;
+}
+
+.curriculo__titulo {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 1em;
+    font-weight: 700;
+    color: var(--cor-fonte);
+
+}
+
+.card {
+    margin: 1em 0;
+    background-color: var(--background-cinza);
+    padding: 1em;
+
+}
+
+.experiencia__info {
+    font-size: 10px
+}
+
+.experiencia__atuacao li {
+    font-size: 13px;
+    padding: 0.5em;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.card_habilidades {
+    display: flex;
+    justify-content: space-around;
+}
+
+.curriculo__cabecalho {
+    display: none;
+}
+
+@media screen and (min-width: 1300px) {
+    .curriculo-tabela {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .curriculo__cabecalho {
+        background: white;
+        display: block;
+        text-align: center;
+        padding: 1em;
+        margin: 0 1em;
+        font-weight: 700;
+        color: var(--cor-fonte);
+    }
+
+    .experiencia {
+        grid-column: 2;
+    }
+
+    .educacao {
+        grid-row: 1;
+    }
+
+    .habilidades {
+        grid-row: 2;
+    }
+
+    .card {
+        background: none;
+    }
+
+    .card-educacao {
+        margin-left: 5em;
+
+    }
+
+    .card-experiencia {
+
+        border-left: 1px solid;
+    }
+
+    .experiencia__titulo-educacao {
+        padding: 1em 0 0 0;
+    }
+}

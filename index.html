@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Achilles - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__logo"><a href="#"><img src="img/logo2.png" alt="Logo Gabriel Achilles"
+                    class="img__logo"></a></h1>
+        <nav class="navegacao">
+            <ul class="lista__navegacao">
+                <li><a href="#projetos" class="navegacao__itens">Projetos</a> </li>
+                <li><a href="#curriculum" class="navegacao__itens">Curriculum</a></li>
+                <li><a href="#contato" class="navegacao__itens">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="apresentacao">
+        <div class="apresentacao__descricao">
+            <div class="apresentacao__conteudo-imagem">
+                <img src="img/profile-pic3.png" alt="imagem do perfil" class="apresentacao__imagem">
+            </div>
+            <div class="apresentacao__conteudo">
+                <h2 class="apresentacao__ola">Olá, me chamo:</h2>
+                <h1 class="apresentacao__nome">Gabriel Achilles</h1>
+                <p class="apresentacao__texto"> Sou estudante de Tecnologia em Análise e Desenvolvimento de Sistemas
+                    pela
+                    PUC-PR,
+                    venha conhecer um pouco mais sobre mim e os meus projetos.
+                </p>
+                <div class="apresentacao__links">
+                    <a href="https://github.com/Achillesdhr/" class="apresentacao__links"><img src="img/github.png"
+                            alt="Meu Github" class="apresentacao__link-github"></a>
+                    <a href="https://wa.me/5541995894223"><img src="img/whatsapp.png" alt="Whatsapp"
+                            class="apresentacao__links apresentacao__link-whatsapp"></a>
+                    <a href="https://www.linkedin.com/in/gabriel-achilles/"><img src="img/linkedin.png" alt="Whatsapp"
+                            class="apresentacao__links apresentacao__link-linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="carrossel">
+        <h2 class="swiper__titulo" id="projetos">MEUS PROJETOS</h2>
+        <div>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><a href="https://github.com/Achillesdhr/Zombie_Dice_Game"><img
+                                src="img/zombie-dice-featured.webp" alt="Projeto zombie dice" class="swiper-img">
+                            <p>Zombie Dice - Python</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><a href="https://github.com/Achillesdhr/Projeto-Verao"><img
+                                src="img/verao.jpg" alt="Projeto Verao" class="swiper-verão">
+                            <p>Projeto Verão - Python</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><a href="https://achillesdhr.github.io/AluraBook/"><img
+                                src="img/Guia Front-end.png" alt="site alura book" class="swiper-alura">
+                            <p> Website -
+                                Curso Front End Alura</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><a
+                            href="https://achillesdhr.github.io/Projeto__Curso-Flex-Grid-Alura/"><img
+                                src="img/banner-mobile_1.png" alt="site alura cursfo flex e grid" class="swiper-alura">
+                            <p> Website -
+                                Curso Front End Alura</p>
+                        </a>
+                    </div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+        </div>
+    </section>
+    <section class="curriculo" id="curriculum">
+        <h2 class="curriculo__cabecalho">Curriculum</h2>
+        <div class="curriculo-tabela">
+            <article class="experiencia experiencia-contend">
+                <h2 class="curriculo__titulo">Experiência profissional</h2>
+                <div class="card card-experiencia">
+                    <h2 class="experiencia__titulo">CMC - Colégio Militar do Paraná</h2>
+                    <h3 class="experiencia__info">2016 - 2017</h3>
+                    <ul class="experiencia__atuacao">
+                        <li class="experiencia__texto">Instalação de Sistema Operacional Linux</li>
+                        <li class="experiencia__texto">Assistência técnica ao Cliente</li>
+                        <li class="experiencia__texto">Manutenção de Hardware</li>
+                        <li class="experiencia__texto">Preparação e instalação de Cabos de Rede</li>
+                    </ul>
+                </div>
+                <div class="card card-experiencia">
+                    <h2 class="experiencia__titulo">eTraduções</h2>
+                    <h3 class="experiencia__info">2018 - 2022</h3>
+                    <ul class="experiencia__atuacao">
+                        <li class="experiencia__texto">Manutenção de Hardware</li>
+                        <li class="experiencia__texto">Assistência técnica ao Cliente</li>
+                        <li class="experiencia__texto">Organização e Diagramação de documentos e certidões</li>
+                        <li class="experiencia__texto">Controle de Planilhas</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="educacao educacao-contend">
+                <h2 class="curriculo__titulo">Educação</h2>
+                <div class="card card-educacao">
+                    <h2 class="experiencia__titulo experiencia__titulo-educacao">Graduação:</h2>
+                    <h3 class="experiencia__info">PUC-PR - 2022 -> 2024</h3>
+                    <ul class="experiencia__atuacao">
+                        <li class="experiencia__texto">Tecnologia em Análise e Desenvolvimento de Sistemas</li>
+
+                    </ul>
+                    <h2 class="experiencia__titulo experiencia__titulo-educacao">Ensino Médio - Técnco:</h2>
+                    <h3 class="experiencia__info">TECPUC-PR - 2013 -> 2016</h3>
+                    <ul class="experiencia__atuacao">
+                        <li class="experiencia__texto">Informática</li>
+                    </ul>
+                    <h2 class="experiencia__titulo experiencia__titulo-educacao">Cursos:</h2>
+                    <ul class="experiencia__atuacao">
+                        <li class="experiencia__texto">Formação em HTML/CSS - 66h - Plataforma Online: Alura</li>
+                        <li class="experiencia__texto">Programação Iniciante - 79h - Plataforma Online: Alura</li>
+                        <li class="experiencia__texto">Python - 40h - Plataforma Online: Curso em Vídeo</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="habilidades">
+                <h2 class="curriculo__titulo">Habilidades</h2>
+                <div class="card card_habilidades">
+                    <div>
+                        <h3>Linguagens:</h3>
+                        <ul class="experiencia__atuacao">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>PYTHON</li>
+                            <li>JAVA</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Idioma:</h3>
+                        <ul class="experiencia__atuacao">
+                            <li>Inglês - Avançado</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        </article>
+    </section>
+    <footer class="rodape" id="contato">
+        <div class="rodape-titulo">
+            <h2><strong>Contato</strong></h2>
+        </div>
+        <div class="rodape__conteudo">
+            <p>Curitiba, Paraná</p>
+            <p>g.achilles2007@gmail.com</p>
+            <p>(41)99589-4223</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>

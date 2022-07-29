@@ -1,0 +1,39 @@
+.rodape {
+    background: var(--background-cinza);
+    margin: 0 1em 1em;
+    border-top: 1px solid;
+    padding: 1em;
+}
+
+.rodape__conteudo {
+
+    text-align: right;
+}
+
+.rodape__conteudo p {
+    font-size: 10px;
+    text-align: right;
+    padding: 2px;
+}
+
+@media screen and (min-width: 1300px) {
+
+    .rodape{
+        display: flex;
+        padding: 2em;
+        align-items:flex-start;
+    }
+
+    .rodape__conteudo{
+        margin-left: 1em;
+        border-left: 1px solid;
+    }
+    .rodape__conteudo p {
+        text-align:start;
+        padding-bottom: 1em;
+        font-size: 14px;
+        margin-left: 1em;
+    }
+
+
+}

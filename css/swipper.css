@@ -1,0 +1,45 @@
+.swiper-wrapper img {
+    width: 100%;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.swiper__titulo {
+    color: var(--cor-fonte);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1em;
+}
+
+.carrossel {
+    background: rgb(243, 243, 243);
+    padding: 1em;
+    margin: 0 1em;
+    color: rgb(0, 0, 0);
+}
+
+
+.swiper-slide img{
+    height: 200px;
+
+}
+
+@media screen and (min-width: 1300px){
+
+    .swiper{
+        margin: 0 20vw;
+    }
+
+    .swiper-slide img{
+        height: 300px;
+
+    }
+
+    .swiper-slide p:hover{
+        font-size: 17px;
+        transition: 0.3s;
+    }
+}

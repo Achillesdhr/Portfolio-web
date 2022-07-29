@@ -1,0 +1,84 @@
+.apresentacao {
+    background: var(--cor-secundaria);
+    padding: 2em;
+    margin: 0 1em;
+    display: block;
+    justify-content: space-around;
+    border-top: 1px solid;
+
+}
+
+.apresentacao__conteudo-imagem {
+    text-align: center;
+    padding: 1em;
+}
+
+.apresentacao__imagem {
+    width: 30%;
+}
+
+.apresentacao__ola {
+
+    text-align: center;
+    font-size: 24px;
+}
+
+.apresentacao__conteudo {
+    text-align: center;
+}
+
+.apresentacao__nome {
+    color: var(--cor-fonte);
+    text-align: center;
+    padding: 1em;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.apresentacao__texto {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.apresentacao__link-github{
+    width: 30px;
+}
+
+.apresentacao__link-whatsapp {
+    width: 30px;
+
+}
+
+.apresentacao__link-linkedin {
+    width: 30px;
+}
+
+.apresentacao__link-projetos:hover {
+    background-color: var(--cor-fonte);
+}
+
+@media screen and (min-width: 1300px) {
+    .apresentacao__descricao {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .apresentacao__conteudo {
+        width: 40%;
+
+    }
+
+    .apresentacao__imagem {
+        width: 40%;
+    }
+
+    .apresentacao__texto{
+        margin: 0 0 3em
+    }
+}
